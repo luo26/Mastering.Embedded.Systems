@@ -11,7 +11,7 @@ int main()
 	else
 	{
 		for (int j=1;j<=n;j++)
-			sum=sum*j;
+			sum*=j;
 		printf("Sum = %d", sum);
 	}
 }

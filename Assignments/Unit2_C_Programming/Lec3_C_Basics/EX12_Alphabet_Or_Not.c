@@ -3,7 +3,7 @@
 int main()
 {
 	char a;
-	printf("Enter a character:");
+	printf("Enter a character: ");
 	fflush(stdout);
 	fflush(stdin);
 	scanf("%c",&a);

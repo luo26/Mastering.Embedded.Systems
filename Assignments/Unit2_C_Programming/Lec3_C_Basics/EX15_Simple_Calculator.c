@@ -7,7 +7,7 @@ int main()
 	printf("Enter operator either + or - or * or divide: ");
 	fflush(stdout);
 	scanf("%c",&n);
-	printf("Enter two operands:");
+	printf("Enter two operands: ");
 	fflush(stdout);
 	scanf("%f %f",&op1,&op2);
 	if(n=='+')
