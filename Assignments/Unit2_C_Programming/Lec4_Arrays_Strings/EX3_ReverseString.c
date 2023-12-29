@@ -12,7 +12,7 @@ void main()
 	{
 		b[j]=a[i];
 	}
-	b[strlen(a)]=0;
+	b[strlen(a)]='\0';
 	printf("Reverse string is : %s",b);
 }
 
